@@ -430,7 +430,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "open_bracket",
+                                    "key_code": "g",
                                     "modifiers": {
                                         "mandatory": [
                                             "control"
@@ -1514,7 +1514,7 @@
                 }
             ],
             "name": "Global",
-            "selected": false,
+            "selected": true,
             "simple_modifications": [
                 {
                     "from": {
@@ -1639,7 +1639,7 @@
                 }
             ],
             "name": "Intellij",
-            "selected": true,
+            "selected": false,
             "simple_modifications": [
                 {
                     "from": {
