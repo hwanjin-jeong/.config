@@ -641,7 +641,9 @@ key_bindings:
   - { key: RBracket, mods: Alt,       chars: "\x1b]"                       } # Alt + ]
   - { key: Space,    mods: Control,   chars: "\x00"                        } # Ctrl + Space
   - { key: Slash,    mods: Control,   chars: "\x1f"                        } # Ctrl + /
-# tmux?
+  - { key: N,        mods: Command,   command: { program: "open", args: ["-n", "/Applications/Alacritty.app"] } }  
+
+  # tmux
   - { key: T,     mods: Command,            chars: "\x1b\x01]" }
   - { key: K,     mods: Command,            chars: "\x1b\x01k" }
   - { key: O,     mods: Command,            chars: "\x1b\x01o" }
@@ -672,4 +674,4 @@ key_bindings:
   # - { key: Up,    mods: Command,       chars: "\x06\x4b" }
   # - { key: Right, mods: Command,       chars: "\x06\x4c" }
 
-  
+
