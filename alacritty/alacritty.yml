@@ -677,4 +677,5 @@ key_bindings:
   # - { key: Up,    mods: Command,       chars: "\x06\x4b" }
   # - { key: Right, mods: Command,       chars: "\x06\x4c" }
 
-
+  - { key: Space,  mods: Alt,          chars: "\x1b\x20" }
+ 
