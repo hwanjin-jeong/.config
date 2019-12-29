@@ -644,7 +644,14 @@ key_bindings:
   - { key: N,        mods: Command,   command: { program: "open", args: ["-n", "/Applications/Alacritty.app"] } }  
 
   # for emacs
-  - { key: Key1,        mods: Alt|Shift,   chars: "\x1b\x21"         } # M-!
+  - { key: Key1,        mods: Alt|Shift,   chars: "\x1b\x21"               } # M-!
+
+  # docker
+  # resolve command history problem in docker container
+  - { key: P,        mods: Control,   chars: "\x1b[A",    mode: ~AppCursor } 
+  - { key: P,        mods: Control,   chars: "\x1bOA",    mode: AppCursor  }
+  - { key: Down,     mods: Control,   chars: "\x1b[B",    mode: ~AppCursor }
+  - { key: Down,     mods: Control,   chars: "\x1bOB",    mode: AppCursor  }
 
   # tmux
   - { key: T,     mods: Command,            chars: "\x1b\x01]" }
@@ -679,3 +686,5 @@ key_bindings:
 
   - { key: Space,  mods: Alt,          chars: "\x1b\x20" }
  
+
+  
