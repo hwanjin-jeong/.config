@@ -26,8 +26,10 @@ export GHQ_ROOT=~/workspace/src
 
 # editor
 export EDITOR="emacsclient -c"
+export GOPATH=$WORKSPACE/go
+export GOROOT=$WORKSPACE/go
 
-# emacs 
+# emacs
 alias ed="emacs --daemon"
 alias er="pkill emacs && emacs --daemon"
 alias e="emacsclient -c"
